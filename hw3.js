@@ -24,17 +24,15 @@ else {
 }
 //Task 3
 let a = +prompt('a?', '');
-console.log(a); // string
-a += a;
-console.log(a); // number
 switch(a){
-	case (a == 0):
+	case (0):
 		alert(0);
 		break;
-	case (a == 1):
+	case (1):
 		alert(1)
+		
 		break;
-	case (a == 2 || a == 3):
+	case (2 || 3):
 		alert('2,3');
 	default:
 		console.log('not 0, 1, 2 or 3');
